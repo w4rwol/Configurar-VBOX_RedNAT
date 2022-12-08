@@ -15,7 +15,7 @@ Es importante que todas estén dentro de la misma red NAT para poder hacer ping 
 
 img2
 
-# CONFIGURAR LA IP
+# CÓMO SABER LA IP
 
 Ahora, debemos ver la nueva red que hemos asignado a cada una de las máquinas, con los comandos `ipconfig` y `ifconfig`, dependiendo del S.O.
 
@@ -27,5 +27,18 @@ Ahora, debemos ver la nueva red que hemos asignado a cada una de las máquinas, 
 
 ## CentOS 7
 
+# HACER PING ENTRE MÁQUINAS
+
+Vamos a hacer ping entre máquinas y, dentro de cada una, a google.com.
+
+## Windows 10
 
 
+## Windows Server 2019
+
+
+## CentOS 7
+
+
+Hay que destacar que para los Windows es necesario desactivar el firewall de redes privadas.
+En CentOS7 no tenemos habilitada la tarjeta de red por lo que obtener la IP puede ser más complejo.
