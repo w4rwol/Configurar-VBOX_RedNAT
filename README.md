@@ -54,3 +54,7 @@ Vamos a hacer ping entre máquinas y, dentro de cada una, a google.com.
 > Hay que destacar que para los Windows es necesario desactivar el firewall de redes privadas.
 > 
 > En CentOS7 no tenemos habilitada la tarjeta de red por lo que obtener la IP puede ser más complejo. Para nuestro caso, debemos hacerlo con el comando `hostname -I`
+
+# DIAGRAMA DE RED
+
+![Alt text](./rednat8.PNG)
