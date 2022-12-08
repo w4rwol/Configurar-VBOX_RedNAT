@@ -13,7 +13,7 @@ Seleccionamos la máquina que queramos, abrimos su configuración y, dentro de `
 
 Es importante que todas estén dentro de la misma red NAT para poder hacer ping y encontrarse.
 
-![Alt text](./rednat2.PNG)
+
 
 # CÓMO SABER LA IP
 
@@ -21,11 +21,13 @@ Ahora, debemos ver la nueva red que hemos asignado a cada una de las máquinas, 
 
 ## Windows 10
 
-![Alt text](./rednat3.PNG)
+![Alt text](./rednat2.PNG)
+
 
 ## Windows Server 2019
 
-![Alt text](./rednat4.PNG)
+![Alt text](./rednat3.PNG)
+
 
 ## CentOS 7
 
@@ -51,4 +53,4 @@ Vamos a hacer ping entre máquinas y, dentro de cada una, a google.com.
 
 > Hay que destacar que para los Windows es necesario desactivar el firewall de redes privadas.
 > 
-> En CentOS7 no tenemos habilitada la tarjeta de red por lo que obtener la IP puede ser más complejo.
+> En CentOS7 no tenemos habilitada la tarjeta de red por lo que obtener la IP puede ser más complejo. Para nuestro caso, debemos hacerlo con el comando `hostname -I`
