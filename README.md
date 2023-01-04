@@ -6,7 +6,7 @@ Una vez hayamos instalado en Virtual Box los S.O Windows 10, Windows Server 2019
 Accedemos a `VirtualBox --> Archivo --> Herramientas --> Network Manager`
 En la nueva ventana, abrimos la pestaña de `NAT Networks` y creamos una nueva red con el nombre que queramos.
 
-![Alt text](./rednat1.PNG)
+![Alt text](./img/rednat1.PNG)
 
 Una vez creada la red NAT,  hay que asignarla a las tres máquinas.
 Seleccionamos la máquina que queramos, abrimos su configuración y, dentro de `Red`, cambiamos el Adaptador 1 de `NAT` a `Red NAT` y así con todas.
@@ -21,17 +21,17 @@ Ahora, debemos ver la nueva red que hemos asignado a cada una de las máquinas, 
 
 ## Windows 10
 
-![Alt text](./rednat2.PNG)
+![Alt text](./img/rednat2.PNG)
 
 
 ## Windows Server 2019
 
-![Alt text](./rednat3.PNG)
+![Alt text](./img/rednat3.PNG)
 
 
 ## CentOS 7
 
-![Alt text](./rednat4.PNG)
+![Alt text](./img/rednat4.PNG)
 
 # HACER PING ENTRE MÁQUINAS
 
@@ -39,16 +39,16 @@ Vamos a hacer ping entre máquinas y, dentro de cada una, a google.com.
 
 ## Windows 10
 
-![Alt text](./rednat5.PNG)
+![Alt text](./img/rednat5.PNG)
 
 
 ## Windows Server 2019
 
-![Alt text](./rednat6.PNG)
+![Alt text](./img/rednat6.PNG)
 
 ## CentOS 7
 
-![Alt text](./rednat7.PNG)
+![Alt text](./img/rednat7.PNG)
 
 
 > Hay que destacar que para los Windows es necesario desactivar el firewall de redes privadas.
@@ -57,4 +57,4 @@ Vamos a hacer ping entre máquinas y, dentro de cada una, a google.com.
 
 # DIAGRAMA DE RED
 
-![Alt text](./rednat8.PNG)
+![Alt text](./img/rednat8.PNG)
